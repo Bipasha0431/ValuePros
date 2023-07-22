@@ -1,0 +1,660 @@
+* {
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.box {
+  background-color: rgba(210, 226, 233, 0.486);
+  padding: 12px;
+  position: relative;
+  /* width: 100%; */
+  /* height: 100%; */
+}
+.box .main {
+  background-color: rgb(249, 247, 240);
+
+  margin: auto;
+  margin-top: 80px;
+  padding: 18px;
+  border-radius: 49px;
+  width: 80%;
+  height: 100%;
+}
+
+/* Navbar */
+.main nav {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 35px;
+  padding: 18px;
+  align-items: center;
+}
+nav .logo {
+  font-size: 22px;
+}
+
+nav .logo:hover {
+  cursor: pointer;
+}
+.dollar {
+  color: white;
+  border-radius: 30px;
+  padding: 6px 12px;
+  font-size: 20px;
+  background-color: rgb(96, 216, 96);
+}
+nav .logo i {
+  font-size: 22px;
+}
+nav .logo h1 {
+  color: black;
+}
+nav .logo h1 span {
+  color: rgb(41, 131, 183);
+  margin-right: 5px;
+}
+nav .nav_dash {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  font-weight: bold;
+}
+nav .nav_dash div {
+  display: flex;
+  align-items: center;
+
+  width: max-content;
+}
+
+nav .nav_dash div i {
+  font-size: 25px;
+}
+nav .nav_dash a {
+  color: rgb(71, 69, 69);
+  font-size: 16px;
+  padding-left: 12px;
+}
+nav .nav_dash a:hover {
+  cursor: pointer;
+}
+nav i {
+  font-size: 18px;
+}
+nav .nav_login {
+  color: rgb(71, 69, 69);
+  display: flex;
+  text-align: right;
+  align-items: center;
+}
+
+nav .nav_login h5 a {
+  color: rgb(41, 131, 183);
+  cursor: pointer;
+}
+nav .nav_login i {
+  color: white;
+  border-radius: 30px;
+  padding: 4px;
+  margin: 3px;
+  background-color: rgb(71, 69, 69);
+  font-size: 16px;
+}
+
+/* Box 1 */
+.box1 {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 18px;
+  margin-top: 12px;
+  height: max-content;
+  justify-content: flex-start;
+  color: rgb(66, 64, 64);
+}
+.box1 .welcome {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+
+  width: 90%;
+}
+.box1 .welcome h3,
+.box1 .welcome ul,
+.box2 .box2_head,
+ul {
+  margin-bottom: 8px;
+}
+
+.box1 .welcome div,
+.box2 .box2_head div {
+  margin: 8px;
+}
+.box1 li i,
+.box2 .box2_head,
+ul li i {
+  font-size: 13px;
+}
+
+.box1 img {
+  border-radius: 20px;
+  height: 200px;
+}
+
+.box_p {
+  margin-top: 16px;
+}
+/* Box2  */
+
+.box2 {
+  display: flex;
+  margin-top: 12px;
+  color: rgb(66, 64, 64);
+  border-radius: 20px;
+  justify-content: space-between;
+}
+.box2 .box2_head i {
+  font-size: 25px;
+  margin-right: 7px;
+}
+
+.box2 .box2_head {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.box2 .box2_1,
+.box2 .box2_2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 25px;
+  max-height: 27vh;
+  padding: 20px 30px;
+}
+.box2 .box2_1 {
+  margin-right: 12px;
+}
+.box2 .box2_head a span {
+  font-size: 23px;
+  color: rgb(66, 64, 64);
+}
+
+.box2 .box2_1 p,
+.box2 .box2_2 p {
+  margin-bottom: 7px;
+}
+
+.box2 .box_2_feature {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* get started */
+
+.getstarted {
+  display: flex;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px 30px;
+  margin-top: 12px;
+
+  height: max-content;
+  justify-content: flex-start;
+  align-items: center;
+  color: rgb(66, 64, 64);
+}
+.getstarted p {
+  font-size: 20px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+.getstarted button {
+  background-color: rgb(68, 177, 68);
+  border: none;
+  color: white;
+  padding: 8px 30px;
+  border-radius: 13px;
+  font-size: 16px;
+}
+
+.getstarted button i {
+  font-size: 20px;
+}
+.getstarted button:last-child {
+  margin-left: auto;
+}
+.get_btn h4 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.get_btn h4 span {
+  width: 10%;
+  margin-left: 17px;
+  padding: 4px 10px;
+
+  background-color: rgba(195, 228, 181, 0.597);
+  border-radius: 4px;
+}
+.getstarted button:hover {
+  cursor: pointer;
+}
+
+/* Footer */
+
+footer {
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer h3 {
+  margin-bottom: 8px;
+  font-size: 20px;
+  color: rgb(53, 50, 50);
+}
+.footer h3 i {
+  color: #5264a4;
+  font-size: 25px;
+  margin-right: 6px;
+}
+.footer p {
+  color: rgb(53, 50, 50);
+}
+
+.footer button {
+  background-color: #5264a4;
+  border: none;
+  color: white;
+  padding: 7px 34px;
+  border-radius: 13px;
+  margin-top: 17px;
+  font-size: 16px;
+}
+.footer h4 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.footer .btn h4 span {
+  width: 10%;
+  margin-left: 13px;
+  padding: 4px 10px;
+  background-color: #6f7aa3c0;
+  border-radius: 4px;
+}
+.getstarted button:hover {
+  cursor: pointer;
+}
+
+/* Login */
+
+.Loginpge,
+.forgot,
+.changepass {
+  background-color: rgba(95, 99, 99, 0.709);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.changepass {
+  display: flex;
+  background-color: rgba(121, 125, 133, 0.269);
+}
+.Signpge {
+  background-color: rgba(95, 99, 99, 0.709);
+  width: 100%;
+  height: -webkit-fill-available;
+  position: fixed;
+  /* position: absolute; */
+  top: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_box,
+.Signup_box,
+.forgot_box,
+.change_box {
+  position: relative;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: rgb(244, 244, 248);
+  justify-content: center;
+  padding: 30px;
+
+  border-radius: 17px;
+}
+
+.Signup_box {
+  width: 40%;
+  margin: 60px auto;
+}
+
+.login_box .close,
+.Signup_box .closee,
+.forgot_box .cross {
+  position: absolute;
+  color: rgba(95, 99, 99, 0.709);
+  right: 10px;
+  top: 10px;
+  font-size: 26px;
+  cursor: pointer;
+}
+.login_box .head,
+.Signup_box .head,
+.forgot_box .head,
+.change_box .head {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.change_box .head {
+  margin-bottom: 35px;
+}
+.login_box .form-control,
+.Signup_box .form-control,
+.forgot_box .form-control,
+.change_box .form-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.login_box .head h1,
+.Signup_box .head h1,
+.forgot_box .head h1,
+.change_box .head h1 {
+  margin-bottom: 0;
+  font-size: 30px;
+  margin-top: 8px;
+}
+.login_box .head h1 span,
+.Signup_box .head h1 span,
+.forgot_box .head h1 span,
+.change_box .head h1 span {
+  color: rgb(41, 131, 183);
+  margin-right: 5px;
+}
+.login_box .head p,
+.Signup_box .head p,
+.forgot_box .head p,
+.change_box .head p {
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 15px;
+}
+.Signup_box form {
+  height: 65vh;
+  overflow-y: scroll;
+}
+
+.login_box .form-control label,
+.Signup_box .form-control label,
+.forgot_box .form-control label,
+.change_box .form-control label {
+  margin-bottom: 3px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.login_box .form-control,
+.Signup_box .form-control,
+.forgot_box .form-control,
+.change_box .form-control {
+  position: relative;
+}
+.login_box .form-control input,
+.forgot_box .form-control input,
+.change_box .form-control input {
+  outline: none;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid black;
+  padding: 6px;
+  margin-bottom: 3px;
+}
+
+.Signup_box .form-control input {
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid black;
+  padding: 6px;
+  margin-bottom: 3px;
+}
+
+.login_box .form-control .hide,
+.Signup_box .form-control .hide,
+.change_box .form-control .hide {
+  display: flex;
+  align-items: center;
+}
+.login_box .form-control i,
+.Signup_box .form-control i,
+.change_box .form-control i {
+  color: rgb(143, 137, 137);
+  position: absolute;
+  right: 0;
+  top: 27px;
+}
+.change_box .form-control i {
+  color: rgb(143, 137, 137);
+}
+.login_box form div:nth-child(3) {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.login_box form div:nth-child(4) {
+  display: flex;
+}
+
+form .login_btn,
+form #signbtn,
+form #forgot {
+  width: 50%;
+  padding: 6px;
+  margin-right: 8px;
+  border-radius: 3px;
+  border: none;
+  background-color: rgb(186, 179, 179);
+  color: white;
+  cursor: pointer;
+}
+
+form #signbtn {
+  background-color: rgb(182, 182, 182);
+  margin-top: 20px;
+}
+
+form #signbtn:hover {
+  background-color: rgb(64, 110, 190);
+}
+form .register_btn,
+form #passbtn {
+  width: 50%;
+  border-radius: 3px;
+  border: none;
+  background-color: rgb(64, 110, 190);
+  text-align: center;
+  padding: 6px;
+  color: white;
+  text-decoration: none;
+}
+
+.change_box .back {
+  position: absolute;
+  color: rgba(244, 248, 248, 0.709);
+  left: 10px;
+  top: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: rgba(95, 99, 99, 0.709);
+  padding: 4px 5px;
+  border-radius: 30px;
+}
+form #passbtn {
+  margin-top: 15px;
+  margin-left: 4px;
+}
+form .pass_btn {
+  display: flex;
+}
+
+form #forgot {
+  background-color: rgb(64, 110, 190);
+  margin-top: 25px;
+}
+
+.login_box form div:nth-child(5) {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+form .btn_s {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+form .btn_s a,
+form .btn_s p {
+  color: rgb(103, 102, 102);
+  margin-bottom: 5px;
+}
+form div:nth-child(5) a {
+  color: black;
+  text-decoration: none;
+}
+
+form .form-control small,
+form .req small {
+  color: red;
+  font-size: 12px;
+  margin: 2px 0;
+  visibility: hidden;
+}
+form .error small {
+  visibility: visible;
+}
+form .req p {
+  color: black;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.Signup_box .req input {
+  width: auto;
+}
+
+form .req div {
+  margin-bottom: 10px;
+}
+form #req1 span {
+  color: rgb(175, 170, 170);
+}
+form .req div a {
+  color: rgb(64, 110, 190);
+}
+
+/* media queries */
+
+@media (max-width: 770px) {
+  nav .logo h1 {
+    font-size: 22px;
+  }
+
+  nav .nav_dash {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    font-weight: bold;
+  }
+  nav .nav_dash a {
+    font-size: 12px;
+  }
+  nav .nav_dash div {
+    flex-direction: column;
+  }
+  .nav_dash .dollar {
+    border-radius: 40px;
+    padding: 4px 9px;
+    font-size: 17px;
+  }
+
+  .box2 .box2_head span {
+    font-size: 20px;
+  }
+
+  .box2 .box_2_feature {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 420px) {
+  .box1 {
+    flex-direction: column;
+  }
+  .box2 {
+    flex-wrap: wrap;
+  }
+  .box1 img {
+    border-radius: 18px;
+    height: 250px;
+  }
+  .box2 .box2_1 {
+    margin-bottom: 12px;
+  }
+  .box2 .box2_1,
+  .box2 .box2_2 {
+    max-height: 50vh;
+    width: 100%;
+  }
+
+  .box2 .box2_1 {
+    margin-right: 0;
+  }
+  .box2 .box_2_feature {
+    display: flex;
+    font-size: 17px;
+    flex-direction: column;
+  }
+  .getstarted {
+    display: block;
+  }
+
+  .footer p {
+    text-align: center;
+  }
+
+  .Signup_box {
+    width: auto;
+    margin: 20px;
+  }
+}

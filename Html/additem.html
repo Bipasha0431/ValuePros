@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../Css/index.css" />
+    <link rel="stylesheet" href="../Css/additem.css" />
+    <link rel="stylesheet" href="../Css/appraisal.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="box">
+      <section class="main">
+        <!-- navbar -->
+
+        <nav>
+          <div class="logo">
+            <a href="./index.html">
+              <h1>VALUE<span>PROS</span><i class="fas fa-search-dollar"></i></h1
+            ></a>
+          </div>
+
+          <div class="nav_dash">
+            <div>
+              <i class="dollar fas fa-dollar-sign"></i>
+              <a href="#">Valuation Dashboard</a>
+            </div>
+            <div>
+              <i class="fas fa-book" style="color: #5eb6dc"></i>
+              <a href="#">Appraisal Dashboard</a>
+            </div>
+            <div>
+              <p>
+                <i class="fas fa-question-circle" style="color: #85ca30"></i>
+                <i class="far fa-bell"></i>
+              </p>
+            </div>
+          </div>
+          <div class="nav_login">
+            <div>
+              <h3>User name</h3>
+              <h5>Appraisal</h5>
+            </div>
+
+            <div>
+              <p class="userimg"><i class="fas fa-user"></i></p>
+            </div>
+          </div>
+        </nav>
+
+        <div class="item">
+          <div class="item_name">
+            <div>
+              <label for="name">What is your item called?*</label>
+              <input type="text" value="" id="name" required />
+            </div>
+          </div>
+          <div class="Item_category">
+            <h4>Please select the category that describes your item.</h4>
+
+            <select name="option" id="app_service" onchange="showform()">
+              <option value="" disabled selected hidden>
+                Please select one...
+              </option>
+              <option value="x">x</option>
+              <option value="y">y</option>
+            </select>
+          </div>
+
+          <div class="Drop-item">
+            <h4>
+              Please upload a minimum of 3 pages.Note if there are any
+              dates,names,etchings,signatures,company names,or other unique
+              characteristics,please provide an image.
+            </h4>
+
+            <div class="col">
+              <div class="cam_icon">
+                <i class="fas fa-camera"></i>
+              </div>
+              <div class="upload">
+                <i class="fas fa-cloud-upload-alt"></i>
+                <input
+                  type="file"
+                  id="file-input"
+                  class="file-selector-input"
+                  multiple
+                />
+
+                <label for="fileinput" onclick="uploadFiles()">
+                  <p>Drop files here,or <span>Browse</span></p>
+                </label>
+              </div>
+            </div>
+
+            <div id="file">
+              <div id="filenum">No file chosen</div>
+              <div id="filedetail"></div>
+            </div>
+          </div>
+
+          <div class="app_btn">
+            <button type="submit" class="btn_add">
+              <div>
+                <h4>
+                  Add Another Item
+                  <span><i class="fas fa-plus"></i></span>
+                </h4>
+              </div>
+            </button>
+            <button class="checkout">
+              <div>
+                <h4>
+                  Checkout
+                  <span><i class="fas fa-angle-double-right"></i></span>
+                </h4>
+              </div>
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="../Js/additem.js"></script>
+  </body>
+</html>

@@ -1,0 +1,366 @@
+.nav_login h5 {
+  color: rgb(152, 145, 145);
+  font-weight: 100;
+}
+
+nav .nav_dash div:nth-child(3) i ~ i {
+  color: rgb(152, 145, 145);
+  margin-left: 7px;
+  font-size: 21px;
+}
+
+.schedule_box {
+  background-color: white;
+  height: 100%;
+  border-radius: 20px;
+  margin-top: 12px;
+  padding: 30px 45px;
+}
+
+.schedule_box .sched-box {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.sched-box .req1 {
+  display: flex;
+  align-items: center;
+  padding: 10px 18px;
+  border-radius: 10px;
+  background-color: rgb(156, 207, 231);
+  margin: 15px;
+  margin-left: 0;
+}
+.req1 .status1 {
+  display: flex;
+  margin-top: 12px;
+  align-items: center;
+}
+.status1 i {
+  margin-right: 4px;
+  font-size: 13px;
+  border: 2px solid rgb(197, 225, 233);
+  border-radius: 15px;
+  padding: 5px 7px;
+  background-color: transparent;
+}
+.sched-box .sched_onsite {
+  background-color: rgb(126, 222, 202);
+}
+.sched-box .req_onsite:nth-child(1) {
+  margin-right: 35px;
+}
+
+.req1 h3 {
+  margin-top: 10px;
+}
+
+.req1 h3 ~ p {
+  margin-top: 5px;
+}
+
+.editdiv {
+  padding-left: 12px;
+}
+.edit {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.559);
+  border: 2px solid rgba(240, 236, 236, 0.751);
+  border-radius: 3px;
+}
+
+.schedule_box select {
+  margin-top: 12px;
+  width: 100%;
+  border-radius: 15px;
+  outline: none;
+  padding: 14px;
+  color: rgb(152, 145, 145);
+  border: 1px solid rgb(140, 135, 135);
+}
+.location select option,
+.app_box1 select option {
+  color: black;
+  outline: none;
+  padding: 15px 0px;
+  box-shadow: none;
+  width: 30%;
+}
+.location option:hover,
+.app_box1 option:hover {
+  background-color: rgb(33, 52, 64);
+}
+
+.schedule_box h4,
+.category h4,
+.items h4,
+.calenderbox h4 {
+  margin-top: 15px;
+}
+
+.category h4,
+.items h4 {
+  margin-bottom: 13px;
+}
+
+.calenderbox h4 {
+  margin-bottom: 65px;
+}
+.category .s_cg {
+  margin: 8px 0px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.category .s_cg div {
+  margin: 4px 0px;
+}
+.items .s_items div {
+  margin: 7px 0px;
+}
+.calenderbox {
+  height: max-content;
+}
+.calender_cont {
+  width: 34%;
+  height: max-content;
+
+  color: #171616;
+}
+
+.calendar {
+  width: 30rem;
+}
+
+.month {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 1rem;
+  text-align: center;
+}
+
+.month i {
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.month h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+.month p {
+  font-size: 1.6rem;
+}
+
+.weekdays {
+  border: 2px solid rgba(218, 221, 218, 0.526);
+  background-color: rgba(218, 221, 218, 0.526);
+  height: 3rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.weekdays div {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 400;
+
+  width: calc(44.2rem / 7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.days {
+  display: grid;
+  border: 2px solid rgba(218, 221, 218, 0.526);
+  border-top: none;
+  grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+.days div {
+  font-size: 1.3rem;
+
+  width: calc(24rem / 7);
+  margin: 0;
+
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.356);
+  transition: background-color 0.2s;
+}
+
+.days div:hover:not(.today) {
+  background-color: #c1bbbb;
+
+  cursor: pointer;
+}
+
+.prev-date,
+.next-date {
+  opacity: 0.5;
+}
+.date h1 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.today {
+  background-color: rgb(41, 131, 183);
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin-bottom: 15px;
+}
+
+.time label {
+  margin-top: 15px;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+.time input {
+  border: 2px solid rgb(240, 236, 236);
+  padding: 4px 8px;
+  outline: none;
+}
+.schedule_box .btnn {
+  text-align: center;
+}
+.schedule_box button {
+  background-color: rgb(41, 131, 183);
+  border: none;
+  padding: 10px 24px;
+  border-radius: 3px;
+  color: white;
+  margin-top: 30px;
+}
+
+.schedule_box button i {
+  margin-left: 15px;
+}
+
+/* edit */
+
+.editpge {
+  background-color: rgba(95, 99, 99, 0.709);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit_box {
+  position: relative;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: rgb(244, 244, 248);
+  justify-content: center;
+
+  /* border-radius: 17px; */
+}
+
+.edit_box .head {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: rgba(198, 195, 195, 0.771);
+  padding: 14px 90px;
+}
+
+.edit_box .head p {
+  font-size: 23px;
+  margin-top: 8px;
+}
+.edit_box .head h1 span {
+  color: rgb(41, 131, 183);
+  margin-right: 5px;
+}
+.edit_box .head p {
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 19px;
+}
+.edit_box .head {
+  margin-bottom: 4px;
+}
+
+.edit_box #modify {
+  margin: 8px 22px;
+}
+.edit_box .resched-date,
+.edit_box .resched-time,
+.edit_box .update-loc {
+  display: flex;
+  flex-direction: column;
+}
+.edit_box label {
+  margin: 12px 0px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.edit_box input,
+select {
+  outline: none;
+  width: 50%;
+  border-radius: 4px;
+  border: 1px solid black;
+  padding: 6px;
+  margin-bottom: 3px;
+}
+select {
+  width: 100%;
+}
+
+.del {
+  width: 100%;
+  background-color: rgb(190, 81, 31);
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  color: white;
+  font-size: 15px;
+}
+.edit_box #modify div:nth-child(3) {
+  margin-bottom: 25px;
+}
+.update-btn {
+  display: flex;
+  margin: 12px 0px;
+}
+.update-btn .cancel,
+.update-btn .update {
+  width: 50%;
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 3px;
+  border: none;
+
+  cursor: pointer;
+}
+
+.update-btn .cancel {
+  color: rgb(17, 119, 179);
+  font-weight: bold;
+  margin-right: 8px;
+  background-color: white;
+}
+
+.update-btn .update {
+  color: white;
+  background-color: rgb(41, 131, 183);
+}

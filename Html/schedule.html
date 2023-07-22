@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../Css/index.css" />
+    <link rel="stylesheet" href="../Css/schedule.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="box" id="box">
+      <section class="main">
+        <nav>
+          <div class="logo">
+            <a href="./index.html">
+              <h1>VALUE<span>PROS</span><i class="fas fa-search-dollar"></i></h1
+            ></a>
+          </div>
+
+          <div class="nav_dash">
+            <div>
+              <i class="dollar fas fa-dollar-sign"></i>
+              <a href="#">Valuation Dashboard</a>
+            </div>
+            <div>
+              <i class="fas fa-book" style="color: #5eb6dc"></i>
+              <a href="#">Appraisal Dashboard</a>
+            </div>
+
+            <div>
+              <i class="fas fa-book" style="color: #5eb6dc"></i>
+              <a href="schedule.html"
+                >Schedule
+                <p>Onsite Appraisal</p>
+              </a>
+            </div>
+
+            <div>
+              <i class="fas fa-question-circle" style="color: #85ca30"></i>
+            </div>
+
+            <div>
+              <i class="far fa-bell"></i>
+            </div>
+          </div>
+          <div class="nav_login">
+            <div>
+              <h3>User name</h3>
+              <h5>Appraisal</h5>
+            </div>
+
+            <div>
+              <p class="userimg"><i class="fas fa-user"></i></p>
+            </div>
+          </div>
+        </nav>
+
+        <div class="schedule_box">
+          <div class="sched-box">
+            <!-- <div class="req_onsite">
+              <div class="req1">
+                <p class="head">REQUESTED ONSITE APPRAISAL</p>
+               
+                <p><i class="fas fa-hourglass-half"></i>REQUESTED</p>
+              </div>
+              <div class="req2">
+                <i class="edit fas fa-pencil-alt" ></i>
+              </div>
+            </div>
+              
+            <div class="sched_onsite">
+                <div>
+                  <p>SCHEDULED ONSITE APPRAISAL</p>
+                  <h3 class="sched-date"></h3>
+                <p class="sched-loc"></p>
+                  <p><i class="fas fa-check-circle"></i></i>SCHEDULED</p>
+                </div>
+                <div>
+                  <i class="fas fa-pencil-alt"></i>
+                </div>
+            </div> -->
+          </div>
+          <h3>Schedule your Appraisal</h3>
+          <div class="s_box1">
+            <h4>Select Location:</h4>
+
+            <select name="option" id="location">
+              <option value="" disabled selected hidden>
+                Please select one...
+              </option>
+              <option value="valuation">Agra</option>
+              <option value="appraisal">Ahmedabad</option>
+              <option value="valuation">Ajmer</option>
+              <option value="valuation">Aligarh</option>
+              <option value="valuation">Amritsar</option>
+              <option value="valuation">Barailley</option>
+              <option value="valuation">Banka</option>
+              <option value="valuation">Belgaum</option>
+              <option value="valuation">Chandigarh</option>
+              <option value="valuation">Ajmer</option>
+              <option value="valuation">Aligarh</option>
+              <option value="valuation">Amritsar</option>
+              <option value="valuation">Barailley</option>
+              <option value="valuation">Banka</option>
+              <option value="valuation">Belgaum</option>
+              <option value="valuation">Chandigarh</option>
+            </select>
+          </div>
+
+          <div class="s_box2">
+            <h4>
+              What is the reason of your appraisal? Select from the list below :
+            </h4>
+
+            <select name="option">
+              <option value="" disabled selected hidden>None</option>
+              <option value="">Buying/Selling decisions</option>
+              <option value="">Obtaining Insurance Coverage</option>
+              <option value="">Pre-Damage Insurance Value</option>
+              <option value="">Charitable Donation</option>
+              <option value="">Estate Settlement</option>
+              <option value="">Equitable Distribution</option>
+              <option value="">Estate Planning</option>
+              <option value="">Divorce</option>
+              <option value="">Multiple Uses</option>
+            </select>
+          </div>
+
+          <div class="category">
+            <h4>Category :</h4>
+            <div class="s_cg">
+              <div>
+                <input type="checkbox" id="c1" name="category" />
+                <span>Art</span>
+              </div>
+
+              <div>
+                <input type="checkbox" id="c2" name="category" />
+                <span>Book/Magazines</span>
+              </div>
+              <div>
+                <input type="checkbox" id="c3" name="category" />
+                <span>Collectibles</span>
+              </div>
+
+              <div>
+                <input type="checkbox" id="c4" name="category" />
+                <span>Decorative Items</span>
+              </div>
+
+              <div>
+                <input type="checkbox" id="c5" name="category" />
+                <span>Documents</span>
+              </div>
+
+              <div>
+                <input type="checkbox" id="c6" name="category" />
+                <span>Equipment</span>
+              </div>
+
+              <div>
+                <input type="checkbox" id="c7" name="category" />
+                <span>Figurines</span>
+              </div>
+
+              <div>
+                <input type="checkbox" id="c8" name="category" />
+                <span>Furniture</span>
+              </div>
+
+              <div>
+                <input type="checkbox" id="c9" name="category" />
+                <span>Jewllery</span>
+              </div>
+
+              <div>
+                <input type="checkbox" id="c10" name="category" />
+                <span>Lighting</span>
+              </div>
+
+              <div>
+                <input type="checkbox" id="c11" name="category" />
+                <span>Memorabilia</span>
+              </div>
+
+              <div>
+                <input type="checkbox" id="c12" name="category" />
+                <span>Rugs/Carpets</span>
+              </div>
+
+              <div>
+                <input type="checkbox" id="c13" name="category" />
+                <span>Silverware</span>
+              </div>
+
+              <div>
+                <input type="checkbox" id="c14" name="category" />
+                <span>Watches</span>
+              </div>
+
+              <div>
+                <input type="checkbox" id="c15" name="category" />
+                <span>Weaponry</span>
+              </div>
+
+              <div>
+                <input type="checkbox" id="c16" name="category" />
+                <span>Other</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="items">
+            <h4>Total Number of items :</h4>
+            <div class="s_items">
+              <div>
+                <input type="radio" name="r1" />
+                <span>10 or less items</span>
+              </div>
+              <div>
+                <input type="radio" name="r1" />
+                <span>11-25 items</span>
+              </div>
+              <div>
+                <input type="radio" name="r1" />
+                <span>26-50 items</span>
+              </div>
+              <div>
+                <input type="radio" name="r1" />
+                <span>76-99 items</span>
+              </div>
+              <div>
+                <input type="radio" name="r1" />
+                <span>100 or more items</span>
+              </div>
+            </div>
+          </div>
+          <!-- calender -->
+          <div class="calenderbox">
+            <h4>Select Date :</h4>
+            <div class="calender_cont">
+              <div class="calendar">
+                <div class="month">
+                  <i class="fas fa-chevron-left prev"></i>
+                  <div class="date">
+                    <h1 id="selected-date"></h1>
+                  </div>
+                  <i class="fas fa-chevron-right next"></i>
+                </div>
+                <div class="weekdays">
+                  <div>Sun</div>
+                  <div>Mon</div>
+                  <div>Tue</div>
+                  <div>Wed</div>
+                  <div>Thu</div>
+                  <div>Fri</div>
+                  <div>Sat</div>
+                </div>
+                <div class="days"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- time selection -->
+
+          <div class="time">
+            <label for="time">Select Time :</label>
+            <input type="time" id="time" />
+          </div>
+
+          <div class="btnn">
+            <button class="reqbtn" type="submit">
+              Submit Request <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- for updation -->
+      <div class="editpge">
+        <div class="editt">
+          <div class="edit_box">
+            <div class="head">
+              <p>Modify Onsite Appraisal Appointment</p>
+            </div>
+
+            <div id="modify">
+              <div class="resched-date">
+                <label for="date">Reschedule Date:</label>
+                <input type="date" id="re-date" />
+              </div>
+
+              <div class="resched-time">
+                <label for="time">Reschedule Time:</label>
+                <input type="time" id="re-time" />
+              </div>
+
+              <div class="update-loc">
+                <label for="location">Update Location:</label>
+                <select name="option" id="re-loc">
+                  <option value="" disabled selected hidden>
+                    Please select one...
+                  </option>
+                  <option value="valuation">Agra</option>
+                  <option value="appraisal">Ahmedabad</option>
+                  <option value="valuation">Ajmer</option>
+                  <option value="valuation">Aligarh</option>
+                  <option value="valuation">Amritsar</option>
+                  <option value="valuation">Barailley</option>
+                  <option value="valuation">Banka</option>
+                  <option value="valuation">Belgaum</option>
+                  <option value="valuation">Chandigarh</option>
+                  <option value="valuation">Ajmer</option>
+                  <option value="valuation">Aligarh</option>
+                  <option value="valuation">Amritsar</option>
+                  <option value="valuation">Barailley</option>
+                  <option value="valuation">Banka</option>
+                  <option value="valuation">Belgaum</option>
+                  <option value="valuation">Chandigarh</option>
+                </select>
+              </div>
+
+              <button class="del">Delete Appointment</button>
+              <div class="update-btn">
+                <button class="cancel">Cancel</button>
+                <button class="update" id="update">Update</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../Js/schedule.js"></script>
+  </body>
+</html>

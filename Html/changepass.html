@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../Css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="changepass">
+      <div class="change">
+        <div class="change_box">
+          <div class="head">
+            <a href="./index.html"><i class="back fa fa-arrow-left"></i></a>
+            <h1>VALUE<span>PROS</span><i class="fas fa-search-dollar"></i></h1>
+            <p>Your single valuation source for all assests</p>
+          </div>
+
+          <form id="change_pass" action="changepass.html">
+            <div class="form-control">
+              <label for="oldpass">Old password:</label>
+              <input type="password" id="oldpass" />
+              <i class="fa fa-eye-slash" id="eye1"></i>
+              <small>d</small>
+            </div>
+            <div class="form-control">
+              <label for="newpass">New Password:</label>
+              <input type="password" id="newpass" />
+              <i class="fa fa-eye-slash" id="eye2"></i>
+              <small>s</small>
+            </div>
+
+            <div class="form-control">
+              <label for="confirmpass">Confirm Password:</label>
+
+              <input type="password" id="confirmpass" />
+              <i class="fa fa-eye-slash" id="eye3"></i>
+              <small>s</small>
+            </div>
+
+            <div class="pass_btn">
+              <button type="submit" id="passbtn">Submit</button>
+              <button type="reset" id="passbtn">Cancel</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="../Js/changepass.js"></script>
+  </body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../Css/index.css" />
+    <link rel="stylesheet" href="../Css/appraisal.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="box">
+      <section class="main">
+        <!-- navbar -->
+
+        <nav>
+          <div class="logo">
+            <a href="./index.html">
+              <h1>VALUE<span>PROS</span><i class="fas fa-search-dollar"></i></h1
+            ></a>
+          </div>
+
+          <div class="nav_dash">
+            <div>
+              <i class="dollar fas fa-dollar-sign"></i>
+              <a href="#">Valuation Dashboard</a>
+            </div>
+            <div>
+              <i class="fas fa-book" style="color: #5eb6dc"></i>
+              <a href="#">Appraisal Dashboard</a>
+            </div>
+            <div>
+              <p>
+                <i class="fas fa-question-circle" style="color: #85ca30"></i>
+                <i class="far fa-bell"></i>
+              </p>
+            </div>
+          </div>
+          <div class="nav_login">
+            <div>
+              <h3>User name</h3>
+              <h5>Appraisal</h5>
+            </div>
+
+            <div>
+              <p class="userimg"><i class="fas fa-user"></i></p>
+            </div>
+          </div>
+        </nav>
+
+        <div class="appraisal_box">
+          <div class="app_box">
+            <h4>Please select your desired appraisal service</h4>
+
+            <select name="option" id="app_service" onchange="showform(this) ">
+              <option value="" disabled selected hidden>
+                Please select one...
+              </option>
+              <option value="valuation">
+                Valuation Certificate - $75 per item
+              </option>
+              <option value="appraisal">
+                Appraisal Report - $125 per item
+              </option>
+            </select>
+          </div>
+
+          <div class="app_box2">
+            <div class="ab">
+              <h4>Please select a single reason for this appraisal.</h4>
+
+              <select name="option">
+                <option value="" disabled selected hidden>
+                  Please select one...
+                </option>
+                <option value="">Valuation Certificate - $75 per item</option>
+                <option value="">Appraisal Report - $125 per item</option>
+              </select>
+            </div>
+
+            <p>Please provide the Client's full name and address.</p>
+            <div class="ab1">
+              <div>
+                <label for="name">Full Name (individual or entity)</label>
+                <input type="text" value="" id="name" />
+              </div>
+            </div>
+
+            <div class="ab1 ab2">
+              <div>
+                <label for="address"
+                  >Address (required for USPAP Certification-report is
+                  emailed)</label
+                >
+                <input type="text" value="" id="address" />
+              </div>
+            </div>
+          </div>
+
+          <div class="app_box1">
+            <div class="ab">
+              <h4>Please select a single reason for this appraisal.</h4>
+
+              <select name="option">
+                <option value="" disabled selected hidden>
+                  Please select one...
+                </option>
+                <option value="">Valuation Certificate 1</option>
+                <option value="">valuation 2</option>
+              </select>
+            </div>
+
+            <p>Please provide the Client's full name and address.</p>
+            <div class="ab1">
+              <div>
+                <label for="name">Full Name (individual or entity)</label>
+                <input type="text" value="" id="name" />
+              </div>
+            </div>
+
+            <div class="ab1 ab2">
+              <div>
+                <label for="address"
+                  >Address (required for USPAP Certification-report is
+                  emailed)</label
+                >
+                <input type="text" value="" id="address" />
+              </div>
+            </div>
+          </div>
+
+          <button class="app_btn">
+            <div>
+              <h4>
+                Checkout
+                <span><i class="fas fa-angle-double-right"></i></span>
+              </h4>
+            </div>
+          </button>
+        </div>
+      </section>
+    </div>
+    <script src="../Js/index.js"></script>
+  </body>
+</html>

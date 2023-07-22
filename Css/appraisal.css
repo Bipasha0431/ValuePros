@@ -1,0 +1,117 @@
+.nav_login h5 {
+  color: rgb(152, 145, 145);
+  font-weight: 100;
+}
+
+nav .nav_dash div:nth-child(3) i ~ i {
+  color: rgb(152, 145, 145);
+  margin-left: 7px;
+  font-size: 21px;
+}
+.appraisal_box {
+  background-color: white;
+  height: 100%;
+  border-radius: 20px;
+  margin-top: 12px;
+  padding: 30px 45px;
+}
+
+.appraisal_box select {
+  margin-top: 12px;
+  width: 100%;
+  border-radius: 15px;
+  outline: none;
+  padding: 14px;
+  color: rgb(152, 145, 145);
+  border: 1px solid rgb(140, 135, 135);
+}
+#app_service select option,
+.app_box1 select option {
+  color: black;
+  outline: none;
+  padding: 15px 0px;
+  box-shadow: none;
+  width: 30%;
+}
+#app_service option:hover,
+.app_box1 option:hover {
+  background-color: rgb(33, 52, 64);
+}
+
+.app_box1 {
+  visibility: hidden;
+
+  flex-direction: column;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.app_box2 {
+  display: none;
+
+  flex-direction: column;
+  margin-top: 15px;
+  width: 100%;
+}
+.app_box1 .ab ~ p,
+.app_box2 .ab ~ p {
+  margin-top: 35px;
+}
+
+.app_box1 .ab1,
+.app_box2 .ab1 {
+  margin: 20px 0;
+}
+
+.app_box1 .ab1 div,
+.app_box2 .ab1 div {
+  display: flex;
+  flex-direction: column;
+}
+
+.app_box1 .ab1 div label,
+.app_box2 .ab1 div label {
+  font-weight: bold;
+}
+
+.app_box1 .ab1 div input,
+.app_box2 .ab1 div input {
+  margin-top: 12px;
+
+  border-radius: 15px;
+  outline: none;
+  padding: 14px;
+  color: rgb(152, 145, 145);
+  border: 1px solid rgb(140, 135, 135);
+}
+
+.appraisal_box button {
+  display: flex;
+  background-color: #318c96;
+  border: none;
+  color: white;
+  padding: 9px 13px;
+  border-radius: 8px;
+  margin: 12px auto;
+
+  font-size: 16px;
+}
+
+.appraisal_box .app_btn h4 span {
+  width: 10%;
+  margin-left: 13px;
+  padding: 4px 10px;
+  background-color: #a1c4c8a7;
+  border-radius: 4px;
+}
+
+.appraisal_box button:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 770px) {
+  nav .nav_dash div:nth-child(3) p {
+    display: flex;
+    align-items: center;
+  }
+}
